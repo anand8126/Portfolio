@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="./client/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <script src="./client/script.js"></script>
+    <section>
+        <nav class="navBar">
+            <div class="logo">
+                <img src="https://st2.depositphotos.com/4035913/6124/i/450/depositphotos_61243831-stock-photo-letter-s-logo.jpg"
+                    alt="">
+            </div>
+            <div class="menu">
+                <ul id="subMenu">
+                    <li><a class="menuName active" href="">Home</a></li>
+                    <li><a class="menuName" href="#skills">Skills</a></li>
+                    <li><a class="menuName" href="#projects">Projects</a></li>
+                    <!-- <li><a class="menuName" href="">Experience</a></li> -->
+                    <li><a class="menuName" href="#about">About Me</a></li>
+                    <li><a class="menuName" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="auth-btn">
+                <button class="login">Download CV</button>
+                <!-- <button class="signup">Sign in</button> -->
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- hero-section -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-section">
+                <div class="hero-left-side">
+                    <h3 class="name">Anand Prakash Chaudhary</h3>
+                    <h1 class="heading">
+                        <span class="text-textHead">
+                            <div class="Typewriter" data-testid="">
+                                <span class="Typewriter-wrapper first-word">I am </span>
+                                <span class="Typewriter-wrapper second-word" id="Typewriter-text"> </span>
+                                <span class="Typewriter-cursor">|</span>
+                            </div>
+                        </span>
+                    </h1>
+                    <div class="auth-btn">
+                        <button class="download-cv">Download CV</button>
+                        <a style="text-decoration: none;" class="contact-us" href="#contact">Contact US</a>
+                    </div>
+
+                </div>
+                <div class="hero-right-side">
+                    <div class="right-part">
+                        <img width="400" src="/imgs/developer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skills -->
+
+    <section class="technical" id="skills">
+        <div class="container ">
+            <h2 class="title">What i know</h2>
+            <div class="skills">
+                <div class="subskills">
+                    <h4 class="skill-heading">Frontend</h4>
+                    <div class="technology">
+                        <a style="border: 1px solid #DD4B24;">HTML</a>
+                        <a style="border: 1px solid #254BDF;">CSS</a>
+                        <a style="border: 1px solid #f7e259;">JavaScript</a>
+                        <a style="border: 1px solid #2F74C0;">TypeScript</a>
+                        <a style="border: 1px solid #D82D2F;">Angular</a>
+                        <a style="border: 1px solid #36B6F2;">Tailwind CSS</a>
+                        <a style="border: 1px solid #8311F6;">Bootstrap</a>
+                        <a style="border: 1px solid #007DC5;">Materail UI</a>
+                    </div>
+
+                </div>
+                <div class="subskills">
+
+                    <h4 class="skill-heading">Backend</h4>
+                    <div class="technology">
+                        <a style="border: 1px solid #509941;">NodeJS</a>
+                        <a style="border: 1px solid #EBD81C;">ExpressJS</a>
+                        <!-- <a style="border: 1px solid #D82D2F;">JavaScript</a> -->
+
+                    </div>
+                </div>
+                <div class="subskills">
+                    <h4 class="skill-heading">Database</h4>
+                    <div class="technology">
+                        <a style="border: 1px solid #429432;">MongoDB</a>
+                        <a style="border: 1px solid rgb(33,3,68);">NO SQL</a>
+                        <a style="border: 1px solid #D47131;">SQL</a>
+                        <a style="border: 1px solid #687AB2;">My SQL</a>
+
+                    </div>
+                </div>
+                <div class="subskills">
+                    <h4 class="skill-heading">Programming </h4>
+                    <div class="technology">
+                        <a style="border: 1px solid #2B6BA9;">C </a>
+                        <a style="border: 1px solid #2B6BA9;">C++ </a>
+                        <a style="border: 1px solid #f7e259;">JavaScript</a>
+                        <a style="border: 1px solid #2F74C0;">TypeScript</a>
+                        <a style="border: 1px solid #366C9C;">Python</a>
+                        <a style="border: 1px solid #964D91;">C #</a>
+                        <a style="border: 1px solid #000000;">Data Structure & Algo</a>
+
+                    </div>
+                </div>
+                <div class="subskills tools">
+                    <h4 class="skill-heading">Tools</h4>
+                    <div class="technology">
+                        <a style="border: 1px solid #3A94CF;">VS code</a>
+                        <a style="border: 1px solid #E84D31;">Git</a>
+                        <a style="border: 1px solid #000000;">GitHub</a>
+                        <a style="border: 1px solid #003B90;">MS Word</a>
+                        <a style="border: 1px solid #209E63;">MS Excel</a>
+                        <a style="border: 1px solid #CC4F2E;">MS PPT</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project - Section -->
+
+    <section class="project-section" id="projects">
+        <div class="container">
+            <h1 class="project-title">Projects</h1>
+            <div class="projects">
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/nature.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">Nature_info</h4>
+                        <p class="project-about">Node.js , Express, MongoDB, HTML, CSS, JavaScript & Bootstrap</p>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/ecom.jpg" style="width: 280px !important; height: 129px !important;"
+                            alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">E-commerce Peoject</h4>
+                        <p class="project-about">Node.js , Express, MongoDB, Angular 14, HTML, CSS, JavaScript &
+                            Bootstrap</p>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/fitness.png"
+                            style="width: 300px !important; height: 129px !important;" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">
+                            Fitness_Enquiry</h4>
+                        <p class="project-about">Node.js , Express, MongoDB, Angular JS, HTML, CSS, JavaScript,
+                            Bootstrap & Materail UI</p>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/amazon.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">Amazon-Clone</h4>
+                        <p class="project-about">HTML, CSS, JavaScript and Bootstrap</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="projects">
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/nature.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">Nature_info</h4>
+                        <p class="project-about">Node.js , Express, MongoDB, HTML, CSS, JavaScript & Bootstrap</p>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/ecom.jpg" style="width: 280px !important; height: 129px !important;"
+                            alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">E-commerce Peoject</h4>
+                        <p class="project-about">Node.js , Express, MongoDB, Angular 14, HTML, CSS, JavaScript &
+                            Bootstrap</p>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/fitness.png"
+                            style="width: 300px !important; height: 129px !important;" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">
+                            Fitness_Enquiry</h4>
+                        <p class="project-about">Node.js , Express, MongoDB, Angular JS, HTML, CSS, JavaScript,
+                            Bootstrap & Materail UI</p>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./imgs/projects/amazon.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-heading">Amazon-Clone</h4>
+                        <p class="project-about">HTML, CSS, JavaScript and Bootstrap</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section -->
+
+
+    <section id="about">
+        <div class="container">
+            <div class="about-section">
+                <div class="about-left">
+                    <div>
+                        <h4 class="about-title">About Me</h4>
+                        <p class="about">I am <span>Anand Prakash Chaudhary,</span> a dynamic IT professional based in
+                            Gurugram, Haryana, with a fervor for crafting innovative solutions through technology.
+                            Currently, I hold the position of <span>Software Developer</span>. My technical expertise
+                            spans a wide array of technologies, including Angular, Node.js, MongoDB, Express.js, HTML,
+                            CSS, JavaScript, TypeScript, Tailwind CSS, Material UI, Bootstrap, NoSQL, and REST API.</p>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div>
+                        <img style="width: 437px;
+                    height: 424px;" src="./imgs/about/anand.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact-section -->
+
+
+    <section id="contact">
+        <div class="container">
+            <h1 class="contact-title">Contact US</h1>
+
+            <div class="contact-form">
+                <form action="http://localhost:3000/contact/" method="post">
+                    <div class="row">
+                        <div class="column">
+                            <label class="form-label">Fisrt Name :</label>
+                            <input class="from-input" type="text" id="firstName" name="firstName" required placeholder="Enter First Name">
+                        </div>
+                        <div class="column">
+                            <label class="form-label">Last Name :</label>
+                            <input class="from-input" type="text" id="lastName" name="lastName" required placeholder="Enter Last Name">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label class="form-label">Mobile Number :</label>
+                            <input class="from-input" type="text"  id="mobile" name="mobile" required placeholder="Enter Mobile Number">
+                        </div>
+                        <div class="column">
+                            <label class="form-label">Email Address:</label>
+                            <input class="from-input"type="email" id="email" name="email" required placeholder="Enter Email Address">
+                        </div>
+                    </div>
+
+                    <div class="query-massage">
+                        <label class="label">Your Message :</label>
+                        <textarea class="input-textarea" placeholder="Enter Your Message " id="message" name="message" required   cols="15" rows="5"></textarea>
+                    </div>
+                    <div class="contact-btn">
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer-section  -->
+
+    <section class="footer-section">
+        <div class="container ">
+            <div>
+                <h4 class="name">@ Anand Prakash Chaudhary</h4>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
